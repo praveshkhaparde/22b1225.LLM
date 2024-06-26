@@ -1,0 +1,111 @@
+Introduction to Machine Learning
+What is Machine Learning?
+
+Machine Learning (ML) is a subset of artificial intelligence (AI) focused on building systems that learn from data and improve over time without being explicitly programmed.
+It involves algorithms and statistical models to enable computers to perform specific tasks.
+Types of Machine Learning:
+
+Supervised Learning:
+Learning from labeled data.
+Examples: Classification, Regression.
+
+Unsupervised Learning:
+Finding patterns in unlabeled data.
+Examples: Clustering, Association.
+
+Reinforcement Learning:
+Learning through rewards and punishments.
+Used in decision-making processes like gaming and robotics.
+Applications of Machine Learning:
+
+Healthcare: Predictive analytics, diagnostics.
+Finance: Fraud detection, algorithmic trading.
+Marketing: Customer segmentation, recommendation systems.
+Key Concepts:
+
+Training Data: The dataset used to train the model.
+Features: Individual measurable properties or characteristics of a phenomenon.
+Model: The system that makes predictions or decisions based on the data.
+Common Algorithms:
+
+-Decision Trees
+-Support Vector Machines
+-Neural Networks
+
+--------------------------------------------------------------------
+
+
+Introduction to Deep Learning:
+
+Deep learning is a subset of machine learning focused on artificial neural networks and deep neural networks (DNNs).
+It aims to automatically learn hierarchical representations of data through layers of interconnected nodes (neurons).
+Neural Networks:
+
+Basic unit: neuron (perceptron) which receives inputs, processes them with weights, applies an activation function, and produces an output.
+Layers: Input layer (receives data), hidden layers (process data), and output layer (produces the final output).
+Training Process:
+
+Forward Propagation: Input data is fed through the network to produce a prediction.
+Loss Calculation: Error or loss between predicted and actual output is calculated (e.g., using cross-entropy for classification).
+Backpropagation: Error is propagated backward through the network to adjust weights (using gradient descent or its variants).
+Activation Functions:
+
+Common functions include sigmoid, tanh, ReLU (Rectified Linear Unit), and softmax (for multi-class classification).
+Types of Deep Learning Models:
+
+Feedforward Neural Networks (FNN): Simplest form, information flows in one direction (no cycles).
+Convolutional Neural Networks (CNN): Specialized for processing grid-like data (e.g., images).
+Recurrent Neural Networks (RNN): Designed to handle sequential data (e.g., time series, natural language).
+Tools and Libraries:
+
+Popular frameworks like TensorFlow, PyTorch, and Keras simplify the implementation of deep learning models.
+They provide APIs for building, training, and deploying neural networks efficiently.
+
+Applications:
+Widely used in image and speech recognition, natural language processing (NLP), medical diagnosis, autonomous vehicles, etc.
+Applications are diverse and continue to expand as the field progresses.
+
+---------------------------------------------------------------------
+
+Natural Language Processing (NLP)
+
+NLP is a field of artificial intelligence focused on enabling computers to understand, interpret, and generate human language.
+
+NLTK Library:
+NLTK (Natural Language Toolkit) is a popular Python library for NLP tasks.
+It provides tools for tokenization, stemming, lemmatization, POS tagging, parsing, and more.
+
+Tokenization:
+Tokenization is the process of breaking down text into smaller units (tokens), such as words or sentences.
+Example: "Hello, world!" → ["Hello", ",", "world", "!"]
+
+Stemming and Lemmatization:
+Stemming: Reducing words to their root or base form by removing affixes.
+Lemmatization: Similar to stemming but results in valid words (lemmas) using vocabulary and morphological analysis.
+
+Stop Words:
+Common words (e.g., "the", "is", "and") that are often filtered out during NLP tasks because they do not contribute to the meaning of the text.
+POS Tagging (Part-of-Speech Tagging):
+
+Assigning grammatical information to words (e.g., noun, verb, adjective) based on their context and role in the sentence.
+
+Named Entity Recognition (NER):
+Identifying and categorizing named entities (e.g., names of people, organizations, locations) in text.
+
+Encoding:
+Converting text into numerical representations (vectors) suitable for machine learning models.
+Techniques include one-hot encoding, TF-IDF (Term Frequency-Inverse Document Frequency), and word embeddings.
+
+Word Embedding:
+Representing words as dense vectors (embeddings) in a continuous vector space.
+Captures semantic relationships between words based on their context in large corpora.
+Popular techniques: Word2vec, GloVe (Global Vectors for Word Representation).
+
+Word2vec:
+A neural network model to learn word embeddings from large text datasets.
+Two main architectures: Continuous Bag of Words (CBOW) and Skip-gram.
+Captures syntactic and semantic word relationships.
+
+Average Word2vec:
+A technique to obtain document-level embeddings by averaging the word embeddings of all words in the document.
+Useful for tasks where capturing the overall context of a document is important.
