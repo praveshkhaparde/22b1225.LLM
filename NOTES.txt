@@ -109,3 +109,18 @@ Captures syntactic and semantic word relationships.
 Average Word2vec:
 A technique to obtain document-level embeddings by averaging the word embeddings of all words in the document.
 Useful for tasks where capturing the overall context of a document is important.
+
+---------------------------------------------------------------------------
+
+Prompt engineering
+
+Prompt engineering involves designing and implementing cues or prompts that influence and guide user behavior towards desired actions or responses, often used in fields like UX design, education, and behavioral studies.
+
+----------------------------------------------------------------------------
+
+What is an API?
+
+An API (Application Programming Interface) serves as a set of rules and protocols that allow different software applications to communicate with each other.Enable developers to use pre-built functionalities without needing to understand their internal workings.Facilitate integration between different software systems, services, or platforms.
+
+Web APIs: Expose functionality over the internet, often using HTTP (e.g., RESTful APIs).
+Library APIs: Provide functionalities within a programming language or framework (e.g., C++ Standard Library).
